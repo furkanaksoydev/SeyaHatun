@@ -1,0 +1,238 @@
+.logoimg {
+    width: 100px; 
+    height: 100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #004951;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;    
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+nav h1 {
+    list-style-type: none;
+    font-size: 15px;
+    padding: 0;
+}
+
+nav h1 button {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav h1 button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cikisbutton {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cikisbutton:hover {
+    background-color: #555;
+}
+
+.cikisbutton a {
+    text-decoration-color: aliceblue;
+    color: aliceblue;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 50px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form button {
+    padding: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+h2{
+    text-align: center;
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+    border-collapse: collapse;
+    background-color: aliceblue;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border-style: inherit;
+}
+
+th, td {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+th{
+    text-align:left;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.biletler {
+    border: 1px solid #ccc;
+    padding-bottom: 50px;
+}
+
+.hepsi .tamami{
+    justify-content: space-between;
+}
+
+.otobus {
+    background-color: whitesmoke;
+    background-image: url('../resimler/otobus.png');
+    background-size: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    border: 1px solid #ccc;
+    position: relative;
+    border-radius: 5px;
+}
+
+.boskoltuk {
+    background-image: url('../resimler/bos-koltuk.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    position: absolute  ;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.dolu-koltuk-erkek {
+    background-image: url('../resimler/dolu-koltuk-erkek.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    position: absolute  ;
+    font-size: 11px;
+    font-style: italic;
+    pointer-events: none;
+}
+.dolu-koltuk-kadin {
+    background-image: url('../resimler/dolu-koltuk-kadin.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    position: absolute  ;
+    font-size: 11px;
+    font-style: italic;
+    pointer-events: none;
+}
+
+.koltuk {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+}
+
+
+
+
+.bilet-yapisi {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+}
+
+.odeme-kismi-sabit {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.odeme-kismi {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20%; /* Sağdaki divin genişliği için ayarlama */
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,156 @@
+.logoimg {
+    width: 100px; 
+    height: 100px;
+}
+
+body {
+    background: white;
+    color: #3f3f3f;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #004951;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+nav h1 {
+    list-style-type: none;
+    font-size: 15px;
+    padding: 0;
+}
+
+nav h1 button {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav h1 button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cikisbutton {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cikisbutton:hover {
+    background-color: #555;
+}
+
+.cikisbutton a {
+    text-decoration-color: aliceblue;
+    color: aliceblue;
+}
+
+.konteynir {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.iletisim .konteynir {
+    justify-content: space-between;
+}
+
+.col3 {
+    flex-grow: 1;
+    width: 50%;
+    padding: 80px;
+}
+
+.col3 img {
+    border-radius: 70px;
+}
+
+.col3 a {
+    font-size: 40px;
+    color: aqua;
+    text-decoration: none;
+}
+
+.iletisim-konteynir {
+    position: relative;
+    width: 100%;
+}
+
+.fotoğraf-over {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.iletisim-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(38,92,255,.7);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    text-align: center;
+    border-radius: 70px;
+    
+}
+
+.iletisim-konteynir:hover .iletisim-overlay {
+    width: 100%;
+    border-radius: 70px;
+}
+
+.iletisim-link {
+    white-space: nowrap;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.iletisim-iletisim-kismi {
+    background: black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:bottom;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

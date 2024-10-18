@@ -1,0 +1,122 @@
+    .logoimg {
+    width: 100px; 
+    height: 100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #004951;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;    
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 50px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form button {
+    padding: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+table, th, td {
+    border: 50px solid rgb(72, 72, 72);
+    border-collapse:collapse;
+
+}
+
+th, td {
+    padding: 10px;
+}
+
+th{
+    text-align:left;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.otobus {
+    background-image: url('../resimler/otobus.png');
+    background-size: 1300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.boskoltuk {
+    background-image: url('../resimler/koltuk.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
